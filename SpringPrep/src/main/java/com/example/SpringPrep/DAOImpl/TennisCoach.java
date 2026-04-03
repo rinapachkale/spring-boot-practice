@@ -8,6 +8,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class TennisCoach implements Coach {
 
+    public TennisCoach() {
+        System.out.println("In Constructor: " + getClass().getSimpleName());
+    }
+
     @Override
     public String dailyWorkout(){
         return "Practice tennis three times a day!!!";
