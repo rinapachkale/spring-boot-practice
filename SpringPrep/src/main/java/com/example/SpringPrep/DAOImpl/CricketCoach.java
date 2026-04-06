@@ -1,6 +1,7 @@
 package com.example.SpringPrep.DAOImpl;
 
 import com.example.SpringPrep.dao.Coach;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
